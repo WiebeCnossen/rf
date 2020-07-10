@@ -1,0 +1,47 @@
+2020-07-10 08:39:30.005 +02:00 [Information] Nidos.Trader.Services.TradeJob: Sending 13c3d24f-4cba-41c5-9b82-e30a73e789b0
+2020-07-10 08:40:04.009 +02:00 [Error] Nidos.Trader.Services.SendService: Error response: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <soapenv:Fault>
+            <faultcode>soapenv:Server</faultcode>
+            <faultstring>Policy Falsified</faultstring>
+            <faultactor>https://services1.enable-u.cloud/nidos/stuurEbms</faultactor>
+            <detail>
+                <l7:policyResult status="Error in Assertion Processing" xmlns:l7="http://www.layer7tech.com/ws/policy/fault"/>
+            </detail>
+        </soapenv:Fault>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2020-07-10 08:40:04.030 +02:00 [Error] Nidos.Trader.Services.TradeJob: Failed to send 13c3d24f-4cba-41c5-9b82-e30a73e789b0: System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+2020-07-10 08:40:05.008 +02:00 [Information] Nidos.Trader.Services.TradeJob: Sending 13c3d24f-4cba-41c5-9b82-e30a73e789b0
+2020-07-10 08:40:11.331 +02:00 [Error] Nidos.Trader.Services.SendService: Error response: <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"/>
+<title>Error 503 Process is already running, executionId execution-30433fbc-1e40-4f1d-9acf-a46f4c0ac803-2020.07.10</title>
+</head>
+<body><h2>HTTP ERROR 503</h2>
+<p>Problem accessing /ws/rest/nidos/verstuurBericht. Reason:
+<pre>    Process is already running, executionId execution-30433fbc-1e40-4f1d-9acf-a46f4c0ac803-2020.07.10</pre></p>
+</body>
+</html>
+
+2020-07-10 08:40:11.333 +02:00 [Error] Nidos.Trader.Services.TradeJob: Failed to send 13c3d24f-4cba-41c5-9b82-e30a73e789b0: System.Net.Http.HttpRequestException: Response status code does not indicate success: 503 (Service Unavailable).
+2020-07-10 08:45:08.194 +02:00 [Information] Nidos.Trader.Controllers.InboxController: Message 4049a019-9039-4b3e-88a2-388ce835b273@justid.nl received
+2020-07-10 08:57:45.023 +02:00 [Information] Nidos.Trader.Services.TradeJob: Sending 13c3d24f-4cba-41c5-9b82-e30a73e789c0
+2020-07-10 08:58:19.845 +02:00 [Error] Nidos.Trader.Services.SendService: Error response: <?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Body>
+        <soapenv:Fault>
+            <faultcode>soapenv:Server</faultcode>
+            <faultstring>Policy Falsified</faultstring>
+            <faultactor>https://services1.enable-u.cloud/nidos/stuurEbms</faultactor>
+            <detail>
+                <l7:policyResult status="Error in Assertion Processing" xmlns:l7="http://www.layer7tech.com/ws/policy/fault"/>
+            </detail>
+        </soapenv:Fault>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+2020-07-10 08:58:19.867 +02:00 [Error] Nidos.Trader.Services.TradeJob: Failed to send 13c3d24f-4cba-41c5-9b82-e30a73e789c0: System.Net.Http.HttpRequestException: Response status code does not indicate success: 500 (Internal Server Error).
+2020-07-10 09:15:10.416 +02:00 [Information] Nidos.Trader.Controllers.InboxController: Message 76864a28-2dbb-4e5b-a11b-03159367d950@justid.nl received
