@@ -4,7 +4,7 @@ Generates a file with random bytes of given size.
 
 ## Build
 
-Requires stable Rust toolchain edition 2018.
+Requires stable Rust toolchain edition 2021.
 
 ```
 cargo build --release
